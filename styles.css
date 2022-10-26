@@ -48,6 +48,20 @@ li {
 #li_3 {
     text-indent: 50vw;
 }
+@media screen and (max-width:1000px) {
+    #li_0 {
+        text-indent: 7vw;
+    }
+    #li_1 {
+        text-indent: 25vw;
+    }
+    #li_2 {
+        text-indent: 15vw;
+    }
+    #li_3 {
+        text-indent: 30vw;
+    }  
+}
 @media screen and (max-width: 600px){
     img {
         height: 7vh;
