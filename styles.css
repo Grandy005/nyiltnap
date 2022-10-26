@@ -21,6 +21,22 @@ li {
     font-weight: bold;
     margin-bottom: 3vh;
 }
+a {
+    text-decoration: none;
+}
+button {
+    margin-top: 5vh;
+    padding: 2rem;
+    border: 2px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.55);
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -35,8 +51,13 @@ li {
 .midContainer {
     margin-top: 10vh;
 }
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .botContainer {
-    margin-top: 15vh;
+    margin-top: 10vh;
     text-align: center;
 }
 #li_0 {
@@ -72,6 +93,13 @@ li {
     }
     .topContainer {
         margin-top: 1rem;
+    }
+    .midContainer {
+        margin-top: 3vh;
+    }
+    .botContainer {
+        margin-top: 5vh;
+        text-align: center;
     }
     #li_0 {
         text-indent: 0px;
